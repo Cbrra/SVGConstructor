@@ -58,5 +58,5 @@ console.log(result);
 
 // Write the result in a file
 const { writeFileSync } = require("node:fs");
-writeFileSync("path.svg", result);
+writeFileSync("yourfilepath.svg", result);
 ```
